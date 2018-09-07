@@ -1,0 +1,16 @@
+elems:
+
+  - src:  ^(pacman\.conf)$
+    dst:  /etc/pacman.conf
+    only: f?archlinux
+
+  - src:  ^mirrors/vanilla$
+    dst:  /etc/pacman.d/mirrorlist
+    only: f?archlinux
+
+  - src:  ^mirrors/blackarch$
+    dst:  /etc/pacman.conf
+    only: f?archlinux
+
+
+# vim: set filetype=eruby.yaml :

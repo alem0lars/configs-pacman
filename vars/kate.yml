@@ -1,0 +1,13 @@
+# => inherits: generic, with-bandwidth-limit <= #
+
+
+repositories:
+  - core
+  #- testing
+  - extra
+  - community
+  - multilib
+  - blackarch
+
+
+# vim: set filetype=eruby.yaml :
