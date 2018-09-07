@@ -9,7 +9,7 @@ elems:
     only: f?archlinux
 
   - src:  ^mirrors/blackarch$
-    dst:  /etc/pacman.conf
+    dst:  /etc/pacman.d/blackarch-mirrorlist
     only: f?archlinux
 
 
