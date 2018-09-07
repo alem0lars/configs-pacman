@@ -50,7 +50,7 @@ end -%>
 #HookDir     = /etc/pacman.d/hooks/
 HoldPkg     = pacman glibc
 <% if local? :download_limit %>
-XferCommand = /usr/bin/wget --limit-rate <%= local! :download_limit %> --passive-ftp -c -O %o %u
+XferCommand = /usr/bin/wget --limit-rate <%= local! :download_limit %> --passive-ftp -q --show-progress -c -O %o %u
 <% end %>
 #CleanMethod = KeepInstalled
 #UseDelta    = 0.7
