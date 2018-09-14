@@ -1,0 +1,14 @@
+# => inherits: generic <= #
+
+
+download_limit: 400k
+repositories:
+  - core
+  #- testing
+  - extra
+  - community
+  - multilib
+  - blackarch
+
+
+# vim: set filetype=eruby.yaml :
