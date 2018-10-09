@@ -9,6 +9,7 @@ repositories:
   - community
   - multilib
   - blackarch
+  - sublime-text
 
 
 # vim: set filetype=eruby.yaml :

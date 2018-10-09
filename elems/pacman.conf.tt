@@ -129,5 +129,10 @@ Include = /etc/pacman.d/mirrorlist
 Include = /etc/pacman.d/blackarch-mirrorlist
 <% end %>
 
+<% if local!(:repositories).include? "sublime-text" %>
+[sublime-text]
+Server = https://download.sublimetext.com/arch/dev/x86_64
+<% end %>
+
 
 # vim: set filetype=eruby.conf :
