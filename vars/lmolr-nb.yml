@@ -7,5 +7,6 @@ repositories:
   - extra
   - community
   - multilib
+  - sublime-text
 
 # vim: set filetype=eruby.yaml :
