@@ -1,7 +1,7 @@
 # => inherits: generic <= #
 
 
-download_limit: 400k
+# download_limit: 400k
 repositories:
   - core
   #- testing
